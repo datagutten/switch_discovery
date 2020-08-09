@@ -1,0 +1,5 @@
+ddt~=1.4.1
+wxPython~=4.1.0
+pyshark~=0.4.2.11
+netifaces~=0.10.9
+wxasync~=0.41

@@ -1,0 +1,201 @@
+[
+  {
+    "_index": "packets-2020-08-08",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{1080C21D-6F72-4C53-A5F9-988CFDE2882C}"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Aug  8, 2020 15:18:30.041122000 Vest-Europa (sommertid)",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1596892710.041122000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "465",
+          "frame.cap_len": "465",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:llc:cdp"
+        },
+        "eth": {
+          "eth.dst": "01:00:0c:cc:cc:cc",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "CDP\/VTP\/DTP\/PAgP\/UDLD",
+            "eth.addr": "01:00:0c:cc:cc:cc",
+            "eth.addr_resolved": "CDP\/VTP\/DTP\/PAgP\/UDLD",
+            "eth.lg": "0",
+            "eth.ig": "1"
+          },
+          "eth.src": "00:64:40:fb:dc:83",
+          "eth.src_tree": {
+            "eth.src_resolved": "Cisco_fb:dc:83",
+            "eth.addr": "00:64:40:fb:dc:83",
+            "eth.addr_resolved": "Cisco_fb:dc:83",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.len": "451"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "12",
+          "llc.cisco_pid": "0x00002000"
+        },
+        "cdp": {
+          "cdp.version": "2",
+          "cdp.ttl": "180",
+          "cdp.checksum": "0x00002ea8",
+          "cdp.checksum.status": "1",
+          "Device ID: Anders-2960": {
+            "cdp.tlv.type": "0x00000001",
+            "cdp.tlv.len": "15",
+            "cdp.deviceid": "Anders-2960"
+          },
+          "Software Version": {
+            "cdp.tlv.type": "0x00000005",
+            "cdp.tlv.len": "248",
+            "cdp.software_version": "Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), Version 15.0(2)SE11, RELEASE SOFTWARE (fc3)",
+            "cdp.software_version": "Technical Support: http:\/\/www.cisco.com\/techsupport",
+            "cdp.software_version": "Copyright (c) 1986-2017 by Cisco Systems, Inc.",
+            "cdp.software_version": "Compiled Sat 19-Aug-17 09:34 by prod_rel_team"
+          },
+          "Platform: cisco WS-C2960G-8TC-L": {
+            "cdp.tlv.type": "0x00000006",
+            "cdp.tlv.len": "25",
+            "cdp.platform": "cisco WS-C2960G-8TC-L"
+          },
+          "Addresses": {
+            "cdp.tlv.type": "0x00000002",
+            "cdp.tlv.len": "17",
+            "cdp.number_of_addresses": "1",
+            "IP address: 192.168.1.116": {
+              "cdp.protocol_type": "0x00000001",
+              "cdp.protocol_length": "1",
+              "cdp.protocol": "cc",
+              "cdp.address_length": "4",
+              "cdp.nrgyz.ip_address": "192.168.1.116"
+            }
+          },
+          "Port ID: GigabitEthernet0\/3": {
+            "cdp.tlv.type": "0x00000003",
+            "cdp.tlv.len": "22",
+            "cdp.portid": "GigabitEthernet0\/3"
+          },
+          "Capabilities": {
+            "cdp.tlv.type": "0x00000004",
+            "cdp.tlv.len": "8",
+            "cdp.capabilities": "0x00000028",
+            "cdp.capabilities_tree": {
+              "cdp.capabilities.router": "0",
+              "cdp.capabilities.trans_bridge": "0",
+              "cdp.capabilities.src_bridge": "0",
+              "cdp.capabilities.switch": "1",
+              "cdp.capabilities.host": "0",
+              "cdp.capabilities.igmp_capable": "1",
+              "cdp.capabilities.repeater": "0"
+            }
+          },
+          "Protocol Hello: Cluster Management": {
+            "cdp.tlv.type": "0x00000008",
+            "cdp.tlv.len": "36",
+            "cdp.oui": "12",
+            "cdp.protocol_id": "0x00000112",
+            "cdp.cluster.master_ip": "0.0.0.0",
+            "cdp.cluster.ip": "255.255.255.255",
+            "cdp.cluster.version": "0x00000001",
+            "cdp.cluster.sub_version": "0x00000002",
+            "cdp.cluster.status": "0x00000021",
+            "cdp.cluster.unknown": "0x000000ff",
+            "cdp.cluster.commander_mac": "00:00:00:00:00:00",
+            "cdp.cluster.switch_mac": "00:64:40:fb:dc:80",
+            "cdp.cluster.unknown": "0x000000ff",
+            "cdp.cluster.management_vlan": "0"
+          },
+          "VTP Management Domain: ": {
+            "cdp.tlv.type": "0x00000009",
+            "cdp.tlv.len": "4",
+            "cdp.vtp_management_domain": ""
+          },
+          "Native VLAN: 1": {
+            "cdp.tlv.type": "0x0000000a",
+            "cdp.tlv.len": "6",
+            "cdp.native_vlan": "1"
+          },
+          "Duplex: Full": {
+            "cdp.tlv.type": "0x0000000b",
+            "cdp.tlv.len": "5",
+            "cdp.duplex": "1"
+          },
+          "Trust Bitmap: 0x00": {
+            "cdp.tlv.type": "0x00000012",
+            "cdp.tlv.len": "5",
+            "cdp.trust_bitmap": "0x00000000"
+          },
+          "Untrusted port CoS: 0x00": {
+            "cdp.tlv.type": "0x00000013",
+            "cdp.tlv.len": "5",
+            "cdp.untrusted_port_cos": "0x00000000"
+          },
+          "Management Addresses": {
+            "cdp.tlv.type": "0x00000016",
+            "cdp.tlv.len": "17",
+            "cdp.number_of_addresses": "1",
+            "IP address: 192.168.1.116": {
+              "cdp.protocol_type": "0x00000001",
+              "cdp.protocol_length": "1",
+              "cdp.protocol": "cc",
+              "cdp.address_length": "4",
+              "cdp.nrgyz.ip_address": "192.168.1.116"
+            }
+          },
+          "Power Available: 0 mW, 4294967295 mW": {
+            "cdp.tlv.type": "0x0000001a",
+            "cdp.tlv.len": "16",
+            "cdp.request_id": "0",
+            "cdp.management_id": "1",
+            "cdp.power_available": "0",
+            "cdp.power_available": "4294967295"
+          },
+          "Spare Pair PoE": {
+            "cdp.tlv.type": "0x0000001f",
+            "cdp.tlv.len": "5",
+            "cdp.spare_poe_tlv": "0x00000000",
+            "cdp.spare_poe_tlv_tree": {
+              "cdp.spare_poe_tlv.poe": "0",
+              "cdp.spare_poe_tlv.spare_pair_arch": "0",
+              "cdp.spare_poe_tlv.req_spare_pair_poe": "0",
+              "cdp.spare_poe_tlv.pse_spare_pair_poe": "0"
+            }
+          },
+          "Radio 1 channel: 1": {
+            "cdp.tlv.type": "0x00001003",
+            "cdp.tlv.len": "5",
+            "cdp.platform": "1"
+          }
+        }
+      }
+    }
+  }
+
+]
